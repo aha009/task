@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body,
+        html {
+            font-size: 16px;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .container {
+            color: #ffffff;
+            background-color: #eff0f4;
+            height: 100%;
+        }
+
+        header {
+            height: 2.86rem;
+            background-color: #5fc0cd;
+            margin-bottom: 0.48rem;
+        }
+
+        header ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            line-height: 2.86rem;
+            font-size: 1.04rem;
+            padding: 0 0.875rem;
+        }
+        header li > a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .bold {
+            font-size: 1.17rem;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            height: 3.255rem;
+            border: none;
+        }
+
+        ::-moz-placeholder {
+            color: #e1e5e7;
+        }
+
+        ::-webkit-input-placeholder {
+            color: #e1e5e7;
+        }
+
+        :-ms-input-placeholder {
+            color: #e1e5e7;
+        }
+        input {
+            outline: none;
+        }
+        input[type="text"] {
+            margin-bottom: 0.48rem;
+            font-size: 1.04rem;
+        }
+        input[type="button"] {
+            background-color: #5fc0cd;
+            color: #ffffff;
+            font-size: 1.17rem;
+        }
+        .icon {
+            padding-left: 4.9rem;
+        }
+
+        .icon1 {
+            background: url(./icon_mobile.png) no-repeat #fff;
+            background-size: 3.776rem 3.125rem;
+        }
+
+        .icon2 {
+            background: url(./icon_pwd.png) no-repeat #fff;
+            background-size: 3.776rem 3.125rem;
+        }
+        .link {
+            color: #5fc0cd;
+            float: right;
+            margin-top: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <ul>
+                <li><a href="">注册</a></li>
+                <li class="bold">登录</li>
+                <li><a href="">关闭</a></li>
+            </ul>
+        </header>
+        <div class="content">
+
+            <input type="text" placeholder="请输入手机号" class="icon icon1">
+
+            <input type="text" placeholder="请输入密码" class="icon icon2">
+
+            <input type="button" value="登录">
+            
+            <a href="#" class="link">忘记密码？</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
