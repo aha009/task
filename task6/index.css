@@ -250,3 +250,12 @@ li.dropdown.col-xs-4.last {
 .content .list-group {
     margin-bottom: 5rem;
 }
+.dropdown-menu {
+    display: none;
+}
+.dropdown-toggle:focus + .dropdown-menu {
+    display: block;
+} 
+/* li:hover .dropdown-menu {
+    display: block;
+} */
