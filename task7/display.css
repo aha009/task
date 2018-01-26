@@ -1,0 +1,152 @@
+html {
+    font-style: 14px;
+}
+
+header, .content {
+    background-color: rgb(41, 189, 224);
+}
+header, footer {
+    position: fixed;
+    width: 100%;
+}
+header {
+    top: 0;
+    height: 6.5vh;
+    color: #ffffff;
+    font-size: 1.9rem;
+    z-index: 123;
+}
+header .row {
+    padding-right: 15px;
+}
+header .row > div {
+    text-align: center;
+    height: 6.5vh;
+    line-height: 6.5vh;
+}
+
+header .row .i_r {
+    display: inline-block;
+    width: 4vh;
+    height: 4vh;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: relative;
+    bottom: -0.4rem;
+}
+.i_r span {
+    position: relative;
+    top: -0.7rem;
+}
+header .row ,header .col-xs-10,header .col-xs-1 {
+    padding: 0;
+}
+
+.content {
+    padding-top: 6.5vh;
+}
+.content .top {
+    padding: 0 6vw;
+}
+.content .bottom {
+    background-color: #ffffff;
+    padding-bottom: 11.85vh;
+}
+.content .show_img {
+    background-image: url(./images/d_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    margin: 0 auto;
+    width: 100%;
+    height: 20vh;
+    position: relative;
+}
+.show_img > span {
+    position: absolute;
+    bottom: 1.1vh;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.show_img + p {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    color: #ffc865;
+    font-size: 2rem;
+}
+.cw {
+    width: 90%;
+    margin: 0 auto;
+    color: #ffffff;
+}
+.cw span {
+    padding-right: 2rem;
+}
+
+.bottom .list {
+    border-width: 1px 0 1px 0;
+    border-color: #ddd;
+    border-style: solid; 
+    padding: 0 11vw;
+    position: relative;
+
+ }
+
+ .g {
+     color: #a6a6a6;
+ }
+
+ .time {
+     color: #c7c7c7;
+     position: absolute;
+     top: 1rem;
+     right: 5rem;
+
+ }
+
+footer {
+    bottom: 0;
+    height: 11.85vh;
+    text-align: center;
+    background-color: rgba(41, 189, 224, .5);
+}
+
+footer input {
+    display: inline;
+    /* width: 76.56%; */
+    height: 44.8%;
+    background-color: rgb(251, 180, 53);
+    border: none;
+    color: #ffffff;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2.2rem;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+footer a {
+    display: inline-block;
+    height: 67.2%;
+    line-height: 200%;
+    vertical-align: middle;
+    font-size: 2.2rem;
+    width: 42vw;
+    background-color: #fbb435;
+    border-radius: 6px;
+    margin-top: 2vh;
+}
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+ .b_l {
+     background-color: #f66f6f;
+ }
